@@ -43,7 +43,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 ._container	{
 	max-width: 1307px;
+	padding: 0px 15px;
 	margin: 0 auto;
+	box-sizing: content-box;
 }
 
 /*-------Шапка-------------*/
@@ -71,8 +73,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .menu {
+	padding: 5px 0;
 
 		&__list {
+			flex-wrap: wrap;
 			display: flex;
 		}
 
@@ -90,4 +94,19 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 				color: #39b9ef;
 			}
 		}
+}
+
+@media (max-width: 769px) {
+	.menu__item:not(:last-child) {
+		margin-right: 25px;
+	}
+}
+@media (max-width: 426px) {
+	.menu__item {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.menu__list {
+		flex-direction:column;
+	}
 }
