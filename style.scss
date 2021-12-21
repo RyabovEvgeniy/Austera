@@ -19,7 +19,7 @@ html,body{
 	width: 100%;
 	line-height: 1;
 	font-size: 14px;
-	color: #000;
+	color: #242424;
 	font-family: Montserrat;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
@@ -47,12 +47,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 /*-------Шапка-------------*/
-.header {
-
+.header {	
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	z-index: 50;
+	background-color: rgba(0,0,0,0.6);
+	
 		&__container {
+			display: flex;
+			min-height: 137px;
+			align-items: center;
+			justify-content: space-between;
 		}
 
 		&__logo {
+			
 		}
 
 		&__menu {
@@ -62,11 +73,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .menu {
 
 		&__list {
+			display: flex;
 		}
 
 		&__item {
+			font-size: 18px;
+			line-height: 1.2;
+			&:not(:last-child) {
+				margin-right: 50px;
+			}
 		}
 
 		&__link {
+			color: #ffffff;
+			&:hover {
+				color: #39b9ef;
+			}
 		}
 }
