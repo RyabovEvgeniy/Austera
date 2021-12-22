@@ -36,11 +36,15 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/*--------------------*/
+
+/*-------------Обёртка-------------*/
 .wrapper {
 	min-height: 100%;
 	overflow: hidden;
+	display: flex;
+	flex-direction: column;
 }
+/*-------------Ограничивающий контейнер-------------*/
 ._container	{
 	max-width: 1307px;
 	padding: 0px 15px;
@@ -48,7 +52,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	box-sizing: content-box;
 }
 
-/*-------Шапка-------------*/
+/*-------------Шапка-------------*/
 .header {	
 	position: absolute;
 	width: 100%;
@@ -59,6 +63,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	
 		&__container {
 			display: flex;
+			padding: 0px 15px;
+			margin: 0 auto;
+			box-sizing: content-box;
+			max-width: 1810px;
 			min-height: 137px;
 			align-items: center;
 			justify-content: space-between;
@@ -110,3 +118,35 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		flex-direction:column;
 	}
 }
+
+/*-------------Page-------------*/
+.page {
+	flex: 1 1 auto;
+	&__main-block {
+	}
+}
+
+/*-------------Подвал-------------*/
+.footer {
+
+}
+
+/*-------------Main-block-------------*/
+.main-block {
+
+	&__container {
+	}
+
+	&__body {
+	}
+
+	&__title {
+	}
+
+	&__text {
+	}
+
+	&__button {
+	}
+}
+
