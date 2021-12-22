@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page__main-block {
-  margin-top: 428px;
+  margin: 428px 0 303px;
 }
 
 /*-------------Подвал-------------*/
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main-block__button {
-  margin: 89px 0 303px;
+  margin-top: 89px;
   width: 216px;
   height: 51px;
   background-color: #2ebaee;
@@ -218,5 +218,17 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #ffffff;
   border-radius: 50px;
+}
+
+@media (max-width: 769px) {
+  .page__main-block {
+    margin: 200px 0;
+  }
+  .main-block__title {
+    font-size: 50px;
+  }
+  .main-block__text {
+    font-size: 16px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

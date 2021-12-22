@@ -126,7 +126,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	background-size: cover;
 	flex: 1 1 auto;
 	&__main-block {
-		margin-top: 428px;
+		// margin-top: 428px;
+		margin: 428px 0 303px;
 	}
 }
 
@@ -164,7 +165,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	}
 
 	&__button {
-		margin: 89px 0 303px;
+		margin-top: 89px;
 		width: 216px;
 		height: 51px;
 		background-color: #2ebaee;
@@ -173,6 +174,22 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		font-weight: 700;
 		color: #ffffff;
 		border-radius: 50px;
+	}
+}
+
+@media (max-width: 769px) {
+	.page {
+		&__main-block {
+			margin: 200px 0;
+		}
+	}
+	.main-block {
+		&__title {
+			font-size: 50px;
+		}
+		&__text	{
+			font-size: 16px;
+		}
 	}
 }
 

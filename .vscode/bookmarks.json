@@ -1,6 +1,31 @@
 {
 	"files": [
 		{
+			"path": "style.scss",
+			"bookmarks": [
+				{
+					"line": 40,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 48,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 56,
+					"column": 0,
+					"label": ""
+				},
+				{
+					"line": 123,
+					"column": 0,
+					"label": ""
+				}
+			]
+		},
+		{
 			"path": "index.html",
 			"bookmarks": [
 				{
