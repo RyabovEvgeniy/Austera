@@ -221,13 +221,17 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 25%;
-          flex: 0 1 25%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: start;
 }
 
 .boxes > div:not(:last-child) {
   margin-right: 46px;
+}
+
+.boxes__item {
+  max-width: 287px;
 }
 
 .box-1__title {

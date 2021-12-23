@@ -183,9 +183,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .boxes	{
 	display: flex;
-	flex: 0 1 25%;
+	// width: 100%;
+	flex-wrap: wrap;
+	text-align: start;
+	// flex: 0 1 25%;
 	&>div:not(:last-child) {
 		margin-right: 46px;
+	}
+	&__item {
+		max-width: 287px;
 	}
 }
 .box-1 {
