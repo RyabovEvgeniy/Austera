@@ -184,6 +184,66 @@ h1, h2, h3, h4, h5, h6 {
   margin: 428px 0 303px;
 }
 
+/*-------------Services-------------*/
+.services-block__title {
+  font-size: 48px;
+  line-height: 1.2;
+  text-align: center;
+  margin-top: 78px;
+}
+
+.services-block__items {
+  margin-top: 159px;
+}
+
+.item-1 {
+  text-align: center;
+}
+
+.item-1__button {
+  margin: 82px 0;
+  width: 151px;
+  height: 44px;
+  background-color: #2ebaee;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 50px;
+}
+
+.item-1 img {
+  width: 80px;
+  height: 77px;
+}
+
+.boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+}
+
+.boxes > div:not(:last-child) {
+  margin-right: 46px;
+}
+
+.box-1__title {
+  font-size: 24px;
+  line-height: 1.2;
+  margin-top: 52px;
+}
+
+.box-1__text {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #878787;
+  margin-top: 26px;
+}
+
 /*-------------Подвал-------------*/
 /*-------------Main-block-------------*/
 .main-block__body {
