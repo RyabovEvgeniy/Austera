@@ -135,6 +135,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .services {
 
 	&__main-block {
+		// background-color: #C8C8C8;
 	}
 }
 .services-block {
@@ -157,7 +158,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	}
 }
 .item {
-
 	&-1 {
 		text-align: center;
 		&__button {
@@ -170,7 +170,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 			font-weight: 700;
 			color: #ffffff;
 			border-radius: 50px;
-
 		}
 
 		img {
@@ -183,15 +182,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 .boxes	{
 	display: flex;
-	// width: 100%;
 	flex-wrap: wrap;
 	text-align: start;
-	// flex: 0 1 25%;
-	&>div:not(:last-child) {
+
+	/* &>div:not(:last-child) {
 		margin-right: 46px;
-	}
+	} */
 	&__item {
-		max-width: 287px;
+		flex: 1 1 20%;
+		background-color: #fff;
+		box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+		margin: 10px 46px 10px 0;
 	}
 }
 .box-1 {
@@ -208,7 +209,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	&__text {
 		font-size: 14px;
 		line-height: 24px;
-		font-weight: 400;
 		color: #878787;
 		margin-top: 26px;
 	}
@@ -225,7 +225,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	}
 }
 
+@media (max-width: 1025px) {
+	.boxes	{
+		&__item {
+			flex: 1 1 30%;	
+			margin-right: 15px;	
+		}
+	}
+}
 
+@media (max-width: 769px) {
+	.boxes	{
+		&__item {
+			flex: 1 1 auto;
+			margin-right: 5px;		
+		}
+	}
+}
 /*-------------Подвал-------------*/
 .footer {
 

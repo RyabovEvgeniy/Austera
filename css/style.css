@@ -224,14 +224,19 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   text-align: start;
-}
-
-.boxes > div:not(:last-child) {
-  margin-right: 46px;
+  /* &>div:not(:last-child) {
+		margin-right: 46px;
+	} */
 }
 
 .boxes__item {
-  max-width: 287px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 20%;
+          flex: 1 1 20%;
+  background-color: #fff;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+          box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  margin: 10px 46px 10px 0;
 }
 
 .box-1__title {
@@ -243,9 +248,26 @@ h1, h2, h3, h4, h5, h6 {
 .box-1__text {
   font-size: 14px;
   line-height: 24px;
-  font-weight: 400;
   color: #878787;
   margin-top: 26px;
+}
+
+@media (max-width: 1025px) {
+  .boxes__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 30%;
+            flex: 1 1 30%;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 769px) {
+  .boxes__item {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    margin-right: 5px;
+  }
 }
 
 /*-------------Подвал-------------*/
