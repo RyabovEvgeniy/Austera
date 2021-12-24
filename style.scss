@@ -310,6 +310,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 .services {
 
 	&__container {
+		text-align: center;
 	}
 
 	&__body {
@@ -348,7 +349,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		font-weight: 700;
 		color: #ffffff;
 		border-radius: 50px;
-		margin: 0 auto;
 	}
 }
 

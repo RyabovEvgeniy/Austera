@@ -340,6 +340,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+.services__container {
+  text-align: center;
+}
+
 .services__body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -382,7 +386,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #ffffff;
   border-radius: 50px;
-  margin: 0 auto;
 }
 
 .item-service__icon img {
