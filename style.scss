@@ -390,10 +390,21 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 @media (max-width: 769px) {
 	.services {
+		&__title {
+			padding: 78px 0;
+		}
 		&__column {
 			flex: 0 1 100%;
 			margin: 0px 0px 20px 0px;
 			padding: 0px 5px;
+		}
+		&__button {
+			margin: 40px 0;
+		}
+	}
+	.item-service {
+		&__text {
+			font-size: 16px;
 		}
 	}
 }
