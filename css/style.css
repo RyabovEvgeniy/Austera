@@ -364,6 +364,27 @@ h1, h2, h3, h4, h5, h6 {
   padding: 15px;
 }
 
+.services__title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #242424;
+  padding: 78px 0 158px 0;
+}
+
+.services__button {
+  margin: 82px 0;
+  width: 151px;
+  height: 44px;
+  background-color: #2ebaee;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
 .item-service__icon img {
   width: 75px;
   height: 75px;
