@@ -122,20 +122,24 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*-------------Page-------------*/
 .page {
-	background-image: url(/img/main/layers.jpg);
-	background-size: cover;
+	/* background-image: url(/img/main/layers.jpg);
+	background-size: cover; */
 	flex: 1 1 auto;
 	&__main-block {
+		background-image: url(/img/main/layers.jpg);
+		background-size: cover;
 		// margin-top: 428px;
-		margin: 428px 0 303px;
+		padding: 428px 0 303px;
+	}
+	&__services {
 	}
 }
 
 /*-------------Services-------------*/
-.services {
+/* .services {
 
 	&__main-block {
-		// background-color: #C8C8C8;
+		
 	}
 }
 .services-block {
@@ -185,9 +189,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	flex-wrap: wrap;
 	text-align: start;
 
-	/* &>div:not(:last-child) {
-		margin-right: 46px;
-	} */
+
 	&__item {
 		flex: 1 1 20%;
 		background-color: #fff;
@@ -241,7 +243,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 			margin-right: 5px;		
 		}
 	}
-}
+} */
 /*-------------Подвал-------------*/
 .footer {
 
@@ -291,7 +293,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 @media (max-width: 769px) {
 	.page {
 		&__main-block {
-			margin: 200px 0;
+			// margin: 200px 0;
 		}
 	}
 	.main-block {
@@ -304,3 +306,75 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	}
 }
 
+//Services
+.services {
+
+	&__container {
+	}
+
+	&__body {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0px -15px;
+		padding-top: 20px;
+	}
+
+	&__column {
+		padding: 0px 15px;
+		flex: 0 1 25%;
+	}
+
+	&__item {
+		height: 100%;
+		box-shadow: 0px 13px 19px rgba($color: #000000, $alpha: 0.7);
+		padding: 15px;
+		
+		
+	}
+}
+
+.item-service {
+
+	&__icon {
+		img {
+			width: 75px;
+			height: 75px;
+		}
+		
+	}
+
+	&__title {
+		font-size: 24px;
+		line-height: 1.2;
+		color: #242424;
+	}
+
+	&__text {
+		font-size: 14px;
+		line-height: 1.7;
+		color: #878787;
+	}
+
+	&> *:not(:last-child) {
+		margin: 0px 0px 20px 0px;
+	}
+}
+
+@media (max-width: 1330px) {
+	.services {
+		&__column {
+			flex: 0 1 50%;
+			margin: 0px 0px 20px 0px;
+			padding: 0px 10px;
+		}
+	}
+}
+@media (max-width: 769px) {
+	.services {
+		&__column {
+			flex: 0 1 100%;
+			margin: 0px 0px 20px 0px;
+			padding: 0px 5px;
+		}
+	}
+}
