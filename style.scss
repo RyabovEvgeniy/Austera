@@ -132,118 +132,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		padding: 428px 0 303px;
 	}
 	&__services {
-	}
-}
-
-/*-------------Services-------------*/
-/* .services {
-
-	&__main-block {
+		background-image: url(/img/services/services_bg.svg);
 		
 	}
 }
-.services-block {
 
-	&__container {
-	}
-
-	&__body {
-	}
-
-	&__title {
-		font-size: 48px;
-		line-height: 1.2;
-		text-align: center;
-		margin-top: 78px;
-	}
-
-	&__items {
-		margin-top: 159px;
-	}
-}
-.item {
-	&-1 {
-		text-align: center;
-		&__button {
-			margin: 82px 0;
-			width: 151px;
-			height: 44px;
-			background-color: #2ebaee;
-			font-size: 14px;
-			line-height: 1.2;
-			font-weight: 700;
-			color: #ffffff;
-			border-radius: 50px;
-		}
-
-		img {
-			width: 80px;
-			height: 77px;
-		}
-
-	}
-}
-
-.boxes	{
-	display: flex;
-	flex-wrap: wrap;
-	text-align: start;
-
-
-	&__item {
-		flex: 1 1 20%;
-		background-color: #fff;
-		box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-		margin: 10px 46px 10px 0;
-	}
-}
-.box-1 {
-
-	&__img {
-	}
-
-	&__title {
-		font-size: 24px;
-		line-height: 1.2;
-		margin-top: 52px;
-	}
-
-	&__text {
-		font-size: 14px;
-		line-height: 24px;
-		color: #878787;
-		margin-top: 26px;
-	}
-}
-.box {
-
-	&__2 {
-	}
-
-	&__3 {
-	}
-
-	&__4 {
-	}
-}
-
-@media (max-width: 1025px) {
-	.boxes	{
-		&__item {
-			flex: 1 1 30%;	
-			margin-right: 15px;	
-		}
-	}
-}
-
-@media (max-width: 769px) {
-	.boxes	{
-		&__item {
-			flex: 1 1 auto;
-			margin-right: 5px;		
-		}
-	}
-} */
 /*-------------Подвал-------------*/
 .footer {
 
