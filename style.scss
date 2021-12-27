@@ -122,10 +122,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 /*-------------Page-------------*/
 .page {
-	background-image: url(/img/services/services_bg.svg);
-	background-repeat: no-repeat;
-	background-position: 100% 100%;
-	// background-size: 2000px 1681px;
+	background: url(/img/services/shape1.png) 100% 100%/2000px 1681px no-repeat;
 	flex: 1 1 auto;
 	&__main-block {
 		background-image: url(/img/main/layers.jpg);
@@ -319,6 +316,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 	&__body {
 		display: flex;
+		margin-bottom: 154px;
 	}
 
 	&__item {
