@@ -173,7 +173,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /*-------------Page-------------*/
 .page {
-  background: url(/img/services/shape1.png) 100% 100%/1500px 1300px no-repeat;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
@@ -326,6 +325,11 @@ h1, h2, h3, h4, h5, h6 {
   .item-service__text {
     font-size: 16px;
   }
+}
+
+.page__content {
+  background: url(/img/services/shape1.png) no-repeat;
+  background-size: auto auto;
 }
 
 .content__body {
