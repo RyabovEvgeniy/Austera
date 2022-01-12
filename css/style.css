@@ -179,9 +179,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page__main-block {
-  background-image: url(/img/main/layers.jpg);
+  background-image: url(../img/main/layers.jpg);
   background-size: cover;
   padding: 428px 0 303px;
+}
+
+.page__content {
+  /* 		background-image: url(/img/services/services_bg.svg);
+		background-repeat: no-repeat; */
 }
 
 /*-------------Подвал-------------*/
@@ -327,9 +332,10 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.page__content {
-  background: url(/img/services/shape1.png) no-repeat;
-  background-size: auto auto;
+.content {
+  background-image: url(../img/services/services_bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .content__body {

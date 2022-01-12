@@ -125,7 +125,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	// background: url(/img/services/shape1.png) 100% 100%/1500px 1300px no-repeat;
 	flex: 1 1 auto;
 	&__main-block {
-		background-image: url(/img/main/layers.jpg);
+		background-image: url(../img/main/layers.jpg);
 		background-size: cover;
 		// margin-top: 428px;
 		padding: 428px 0 303px;
@@ -133,6 +133,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	&__services {
 		
 		
+	}
+	&__content {
+/* 		background-image: url(/img/services/services_bg.svg);
+		background-repeat: no-repeat; */
 	}
 }
 
@@ -304,14 +308,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 //services__content
 
-.page {
 
-	&__content {
-		background: url(/img/services/shape1.png) no-repeat;
-		background-size:	auto auto;
-	}
-}
 .content {
+	background-image: url(../img/services/services_bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
 
 	&__container {
 	}
