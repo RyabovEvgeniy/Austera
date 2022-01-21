@@ -135,8 +135,15 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		
 	}
 	&__content {
-/* 		background-image: url(/img/services/services_bg.svg);
-		background-repeat: no-repeat; */
+		background-image: url(../img/services/shape1.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: bottom right;
+		background-size: 100% 100%;
+		padding: 142px 0;
+		margin-top: -25px;
+		position: relative;
+		z-index: 2;
 	}
 }
 
@@ -310,16 +317,18 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 .content {
-	background-image: url(../img/services/services_bg.png);
+/* 	background-image: url(../img/services/services_bg.png);
 	background-repeat: no-repeat;
 	background-size: contain;
+	background-position: right bottom;
+	position: relative;
+	z-index: 50; */
 
 	&__container {
 	}
 
 	&__body {
 		display: flex;
-		margin-bottom: 154px;
 	}
 
 	&__item {
@@ -339,6 +348,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .item-content {
+	margin-right: 132px;
 
 	&__title {
 		font-size: 36px;

@@ -185,8 +185,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page__content {
-  /* 		background-image: url(/img/services/services_bg.svg);
-		background-repeat: no-repeat; */
+  background-image: url(../img/services/shape1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 100% 100%;
+  padding: 142px 0;
+  margin-top: -25px;
+  position: relative;
+  z-index: 2;
 }
 
 /*-------------Подвал-------------*/
@@ -333,16 +340,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content {
-  background-image: url(../img/services/services_bg.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  /* 	background-image: url(../img/services/services_bg.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right bottom;
+	position: relative;
+	z-index: 50; */
 }
 
 .content__body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 154px;
 }
 
 .content__item {
@@ -360,6 +369,10 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   color: #ffffff;
   border-radius: 50px;
+}
+
+.item-content {
+  margin-right: 132px;
 }
 
 .item-content__title {
