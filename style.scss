@@ -329,6 +329,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 	&__body {
 		display: flex;
+		&:not(:last-child) {
+			margin: 0px 0px 155px 0px;
+		}
 	}
 
 	&__item {
@@ -344,6 +347,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		font-weight: 700;
 		color: #ffffff;
 		border-radius: 50px;
+		&_color {
+			background-color: #ffffff;
+			color: #2ebaee;
+		}
 	}
 }
 
@@ -353,6 +360,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	&__title {
 		font-size: 36px;
 		line-height: 1.2;
+		&_color {
+			color: #ffffff;
+		}
 	}
 
 	&__text {
@@ -360,6 +370,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 		line-height: 2.1;
 		color: #878787;
 		margin: 48px 0;
+		&_color {
+			color: #ffffff;
+		}
 	}
 
 	&__img {

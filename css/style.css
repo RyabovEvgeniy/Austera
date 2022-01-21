@@ -354,6 +354,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+.content__body:not(:last-child) {
+  margin: 0px 0px 155px 0px;
+}
+
 .content__item {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 50%;
@@ -371,6 +375,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
 }
 
+.content__button_color {
+  background-color: #ffffff;
+  color: #2ebaee;
+}
+
 .item-content {
   margin-right: 132px;
 }
@@ -380,11 +389,19 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
+.item-content__title_color {
+  color: #ffffff;
+}
+
 .item-content__text {
   max-width: 508px;
   line-height: 2.1;
   color: #878787;
   margin: 48px 0;
+}
+
+.item-content__text_color {
+  color: #ffffff;
 }
 
 .item-content__img {
