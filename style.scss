@@ -40,8 +40,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*-------------Обёртка-------------*/
 .wrapper {
 	min-height: 100%;
+	max-width: 1440px;
 	overflow: hidden;
 	display: flex;
+	margin: 0 auto;
+	position: relative;
 	flex-direction: column;
 
 }
