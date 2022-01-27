@@ -379,57 +379,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	}
 
 	&__img {
-		width: 100%;
+		max-width: 100%;
 		height: 100%;
 	}
 }
-
-
-/* .services {
-
-	&__content {
-	}
-
-	&__button {
-	}
-}
-.content {
-
-	&__button {
-		width: 151px;
-		height: 44px;
-		background-color: #2ebaee;
-		font-size: 14px;
-		line-height: 1.2;
-		font-weight: 700;
-		color: #ffffff;
-		border-radius: 50px;
-	}
-
-	&__row {
-		display: flex;
-	}
-
-	&__item {
-	
-	}
-}
-.item-content {
-
-	&__title {
-		font-size: 36px;
-		line-height: 1.2;
-	}
-
-	&__text {
-		max-width: 508px;
-		line-height: 2.1;
-		color: #878787;
-		margin: 48px 0;
-	}
-
-	&__img {
-		width: 100%;
-		height: 100%;
-	}
-} */
