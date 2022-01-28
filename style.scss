@@ -389,13 +389,23 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 @media (max-width: 769px) {
 	.content{ 
 		&__body {
-			// flex: 0 1 100%;
 			flex-direction: column;
+		}
+		&__container {
+			text-align: center;
 		}
 	}
 	.page {
 		&__content {
 			background-image: none;
+			background-color: rgba(46, 187, 238, 0.726);
 		}
 	}
+	.item-content {
+		margin-right: 0px;
+		&__text {
+			max-width: 100%;
+		}
+	}
+
 }
